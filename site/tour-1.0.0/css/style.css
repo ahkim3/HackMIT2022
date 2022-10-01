@@ -645,7 +645,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
     .media-thumb .media-text h3 {
       font-size: 1rem;
       font-weight: 900;
-      color: #1A374D;
+      color: white;
       margin: 0;
       padding: 0; }
     .media-thumb .media-text .location {
