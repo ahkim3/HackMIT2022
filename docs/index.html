@@ -29,6 +29,8 @@
 	<link rel="stylesheet" href="css/aos.css">
 	<link rel="stylesheet" href="css/style.css">
 
+	<script src="/js/index.js"></script>
+
 	<title>WholeBook</title>
 </head>
 
@@ -117,8 +119,7 @@
 								<form class="form">
 									<div class="row mb-2">
 										<div class="col-sm-12 col-md-6 mb-3 mb-lg-0 col-lg-4">
-											<select name="" id="" class="form-control custom-select">
-												<option value="">Location</option>
+											<select name="" id="location" class="form-control custom-select">
 												<option value="">San Francisco</option>
 												<option value="">New York City</option>
 												<option value="">Austin</option>
@@ -127,23 +128,16 @@
 											</select>
 										</div>
 										<div class="col-sm-12 col-md-6 mb-3 mb-lg-0 col-lg-5">
-											<input type="text" class="form-control" name="type" placeholder="Maximum Price">
+											<input type="text" class="form-control" name="type" placeholder="Maximum Price" id="price">
 										</div>
 										<div class="col-sm-12 col-md-6 mb-3 mb-lg-0 col-lg-3">
-											<input type="text" class="form-control" placeholder="# of Rooms">
+											<input type="text" class="form-control" placeholder="# of Rooms" id="num_rooms">
 										</div>
 
 									</div>    
 									<div class="row align-items-center">
 										<div class="col-sm-12 col-md-6 mb-3 mb-lg-0 col-lg-4">
-											<input type="submit" class="btn btn-primary btn-block" value="Search">
-										</div>
-										<div class="col-lg-8">
-											<label class="control control--checkbox mt-3">
-												<span class="caption">Save this search</span>
-												<input type="checkbox" checked="checked" />
-												<div class="control__indicator"></div>
-											</label>
+											<input type="submit" class="btn btn-primary btn-block" value="Search" id="search">
 										</div>
 									</div>
 								</form>
