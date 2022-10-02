@@ -1,3 +1,5 @@
-# HackMIT2022
+# [WholeBook](http://wholebook.me/) - a HackMIT2022 project
+**Mission Statement:** Provide students with the ability to find and rent cheap apartments.
 
-# Mission Statement: Provide students with the ability to find and rent cheap apartments.
+## About
+WholeBook is a web application that will allow students, who are looking for housing in the same area to connect and form groups, with one another, to negotiate signing leases. When enough students are interested in the same local area, they can approach an apartment manager as a group and leverage the fact that they have a large number of people willing to sign immediately, in return for a discounted rent price. This provides a win on both sides as the apartment manager is able to sign-on ten-fold the number of customers in an average day, while also providing each student in the group with a cheaper rent. This idea is supposed to replicate a wholesale model in order to allow students to get cheaper rates for themselves, while saving the apartment manager time and marketing money, and the goal for our product is to facilitate this transaction.
