@@ -799,7 +799,8 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
       font-size: 40px; } }
 
 .feature-1-wrap {
-  position: relative; }
+  position: relative;
+ }
 
 .feature-1 {
   padding: 30px;
@@ -1385,3 +1386,45 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
       content: "\f095"; }
     .site-footer ul.quick-info li.address:before {
       content: "\e8b4"; }
+
+
+      .card {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        max-width: 300px;
+        margin: auto;
+        text-align: center;
+        font-family: arial;
+      }
+      
+      .price {
+        color: grey;
+        font-size: 22px;
+      }
+      
+      .card button {
+        border: none;
+        outline: 0;
+        padding: 12px;
+        color: white;
+        background-color: #000;
+        text-align: center;
+        cursor: pointer;
+        width: 100%;
+        font-size: 18px;
+      }
+      
+      .card button:hover {
+        opacity: 0.7;
+      }
+
+      .flex-container {
+        display: flex;
+    }
+    
+    .flex-child {
+        flex: 1;
+    }  
+    
+    .flex-child:first-child {
+        margin-right: 20px;
+    }    
