@@ -6,9 +6,8 @@ document.addEventListener('DOMContentLoaded', function() {
         price = document.getElementById("price").value;
         num_rooms = document.getElementById("num_rooms").value;
         
-        localStorage.setItem("city",city);
-        localStorage.setItem("price",price);
-        localStorage.setItem("city",city);
-
+        localStorage.setItem("city", city);
+        localStorage.setItem("price", price);
+        localStorage.setItem("num_rooms", num_rooms);
     })
 });
