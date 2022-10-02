@@ -1,13 +1,13 @@
-document.addEventListener('DOMContentLoaded', function() {
-    search = document.getElementById('search');
+document.addEventListener('DOMContentLoaded', function () {
+    // location = document.getElementById('desired-location');
 
-    search.addEventListener("click", () => {
-        city = document.getElementById('location').value;
-        price = document.getElementById("price").value;
-        num_rooms = document.getElementById("num_rooms").value;
-        
-        localStorage.setItem("city", city);
-        localStorage.setItem("price", price);
-        localStorage.setItem("num_rooms", num_rooms);
-    })
+
+    // search.onload() = {
+    //     num_rooms = localStorage.getItem("");
+
+
+    //     city = localStorage.setItem("city");
+    //     price = localStorage.setItem("price", price);
+    //     num_rooms = localStorage.setItem("num_rooms", num_rooms);
+    // };
 });
